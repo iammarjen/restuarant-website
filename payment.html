@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="tailwindcss-colors.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Nourish Nour | Payment</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+
+            <div class="headerbar">
+                <div class="account">
+                    <ul>
+                        <a href="">
+                            <li>
+                                <i class="fa-solid fa-house-chimney"></i>
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <i class="fa-solid fa-magnifying-glass searchicon" id="searchicon1"></i>
+                            </li>
+                        </a>
+                        <div class="search" id="searchinput1">
+                            <input type="search">
+                            <i class="fa-solid fa-magnifying-glass srchicon"></i>
+                        </div>
+                        <a href="">
+                            <li>
+                                <i class="fa-solid fa-user" id="user-mb"></i>
+                            </li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="nav">
+                    <ul>
+                        <a href="index1.html">
+                            <li>Home</li>
+                        </a>
+                        <a href="food menu.html">
+                            <li>Food Menu</li>
+                        </a>
+                        <a href="book table.html">
+                            <li>Book Table</li>
+                        </a>
+                        <a href="payment.html">
+                            <li>Payment</li>
+                        </a>
+                        
+                    </ul>
+                </div>
+            </div>
+            <div class="logo">
+                <img src="./Home image/official logo wide.png" alt="not available">
+            </div>
+            <div class="bar">
+                <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-xmark" id="hdcross"></i>
+            </div>
+            <div class="nav">
+                <ul>
+                    <a href="index1.html">
+                        <li>Home</li>
+                    </a>
+                    <a href="food menu.html">
+                        <li>Food Menu</li>
+                    </a>
+                    <a href="book table.html">
+                        <li>Book Table</li>
+                    </a>
+                    <a href="payment.html">
+                        <li>Payment</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="account">
+                <ul>
+                    <a href="#">
+                        <li>
+                            <i class="fa-solid fa-house-chimney"></i>
+                        </li>
+                    </a>
+                    <a href="#">
+                        <li>
+                            <i class="fa-solid fa-magnifying-glass searchicon" id="searchicon2"></i>
+                        </li>
+                    </a>
+                    <div class="search" id="searchinput2">
+                        <input type="search">
+                        <i class="fa-solid fa-magnifying-glass srchicon"></i>
+                      </div>
+                      <a href="#">
+                        <li>
+                            <i class="fa-solid fa-user" id="user-lap"></i>
+                        </li>
+                      </a>
+
+                </ul>
+            </div>
+        </div>
+    </header>
+    
+    <!-- start: Payment -->
+    <section class="payment-section">
+        <div class="container">
+            <div class="payment-wrapper">
+                <div class="payment-left">
+                    <div class="payment-header">
+                        <div class="payment-header-icon"><i class="ri-flashlight-fill"></i></div>
+                        <div class="payment-header-title">Order Summary</div>
+                        <p class="payment-header-description">Your Food will be served in 30 minutes. Thank You</p>
+                    </div>
+                    <div class="payment-content">
+                        <div class="payment-body">
+                            <div class="payment-plan">
+                                <div class="payment-plan-type">Pro</div>
+                                <div class="payment-plan-info">
+                                    <div class="payment-plan-info-name">Waiter's Name</div>
+                                    <div class="payment-plan-info-price">John Smith</div>
+                                </div>
+                                <a href="#" class="payment-plan-change"></a>
+                            </div>
+                            <div class="payment-summary">
+                                <div class="payment-summary-item">
+                                    <div class="payment-summary-name"></div>
+                                    <div class="payment-summary-price"></div>
+                                </div>
+                                <div class="payment-summary-item">
+                                    <div class="payment-summary-name"></div>
+                                    <div class="payment-summary-price"></div>
+                                </div>
+                                <div class="payment-summary-divider"></div>
+                                <div class="payment-summary-item payment-summary-total">
+                                    <div class="payment-summary-name">Note: Total price will be given when your food is served.</div>
+                                    <div class="payment-summary-price"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="payment-right">
+                    <form action="" class="payment-form">
+                        <h1 class="payment-title">Payment Details</h1>
+                        <div class="payment-method">
+                            <input type="radio" name="payment-method" id="method-1" checked>
+                            <label for="method-1" class="payment-method-item">
+                                <img src="images1/visa.png" alt="">
+                            </label>
+                            <input type="radio" name="payment-method" id="method-2">
+                            <label for="method-2" class="payment-method-item">
+                                <img src="images1/mastercard.png" alt="">
+                            </label>
+                            <input type="radio" name="payment-method" id="method-3">
+                            <label for="method-3" class="payment-method-item">
+                                <img src="images1/paypal.png" alt="">
+                            </label>
+                            <input type="radio" name="payment-method" id="method-4">
+                            <label for="method-4" class="payment-method-item">
+                                <img src="images1/stripe.png" alt="">
+                            </label>
+                        </div>
+                        <div class="payment-form-group">
+                            <input type="email" placeholder=" " class="payment-form-control" id="email">
+                            <label for="email" class="payment-form-label payment-form-label-required">Phone Number</label>
+                        </div>
+                        <div class="payment-form-group">
+                            <input type="text" placeholder=" " class="payment-form-control" id="card-number">
+                            <label for="card-number" class="payment-form-label payment-form-label-required">Table Number</label>
+                        </div>
+                        <div class="payment-form-group-flex">
+                            <div class="payment-form-group">
+                                <input type="date" placeholder=" " class="payment-form-control" id="expiry-date">
+                                <label for="expiry-date" class="payment-form-label payment-form-label-required">Date</label>
+                            </div>
+                            <div class="payment-form-group">
+                                <input type="text" placeholder=" " class="payment-form-control" id="cvv">
+                                <label for="cvv" class="payment-form-label payment-form-label-required">CVV</label>
+                            </div>
+                        </div>
+                        <button type="submit" class="payment-form-submit-button"><i class="ri-wallet-line"></i> Pay</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end: Payment -->
+
+</body>
+</html>
